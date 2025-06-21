@@ -1,7 +1,7 @@
 public class SingletonTest {
     public static void main(String[] args) {
         Logger logger = Logger.getInstance();
-        logger.Login("Sakthi");
+        logger.Login("Yahya");
 
         Logger logger2 = Logger.getInstance();
         Logger logger3 = Logger.getInstance();
