@@ -1,12 +1,3 @@
--- Drop tables if they exist
-BEGIN
-  EXECUTE IMMEDIATE 'DROP TABLE loans';
-  EXECUTE IMMEDIATE 'DROP TABLE customers';
-EXCEPTION
-  WHEN OTHERS THEN NULL;
-END;
-/
-
 -- Create customers table
 CREATE TABLE customers (
     customer_id NUMBER PRIMARY KEY,
